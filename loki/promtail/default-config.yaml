@@ -24,4 +24,4 @@ scrape_configs:
       - labels:
           job: <source_job_name>
           host: <host>
-          __path__: /var/logs*
+          __path__: /root/promtail-dev/sample
